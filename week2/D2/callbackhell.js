@@ -17,7 +17,7 @@ const btn = document.querySelector('.btn');
 //     }, 2000);
 // });
 
-//in seq
+//callback hell
 btn.addEventListener('click', () => {
     setTimeout(() => {
         first.style.color = 'red';
